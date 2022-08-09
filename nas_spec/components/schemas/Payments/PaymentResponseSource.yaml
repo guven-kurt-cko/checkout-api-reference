@@ -10,6 +10,7 @@ discriminator:
     alipay_hk: '#/components/schemas/PaymentResponseAlipayPlusSource'
     alipay_cn: '#/components/schemas/PaymentResponseAlipayPlusSource'
     gcash: '#/components/schemas/PaymentResponseAlipayPlusSource'
+    benefit: '#/components/schemas/PaymentResponseBenefitSource'
     fawry: '#/components/schemas/PaymentResponseFawrySource'
     ideal: '#/components/schemas/PaymentResponseIdealSource'
     sofort: '#/components/schemas/PaymentResponseSofortSource'
@@ -17,6 +18,7 @@ discriminator:
     kakaopay: '#/components/schemas/PaymentResponseAlipayPlusSource'
     truemoney: '#/components/schemas/PaymentResponseAlipayPlusSource'
     tng: '#/components/schemas/PaymentResponseAlipayPlusSource'
+    afterpay: '#/components/schemas/PaymentResponseAfterPaySource'
 required:
   - type
 
