@@ -13,10 +13,6 @@ allOf:
         maxLength: 27
         type: string
         description: "Purpose of the payment as appearing on customer's bank statement."
-      bic:
-        maxLength: 11
-        type: string
-        description: 'BIC (8 or 11-digits)'
       info_fields:
         maxItems: 5
         type: array
